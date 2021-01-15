@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>가상선택자</title>
+    <style>
+      .google_container {
+        background-color: azure;
+      }
+      .google_container:hover {
+        background-color: red;
+      }
+      .google {
+        color: black;
+        font-size: 40px;
+        text-decoration: none;
+      }
+      .google:hover {
+        color: white;
+      }
+      .google:active {
+        /* 클릭했을 떄 링크 삭제 */
+        font-size: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="google_container">
+      <a href="https://google.com" class="google">구글로 바로가기</a>
+    </div>
+  </body>
+</html>

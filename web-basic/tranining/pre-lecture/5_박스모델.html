@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>박스모델</title>
+    <style>
+      * {
+        font-size: 30px;
+      }
+      .box {
+        /*box-sizing: border-box;*/
+        /*display: inline-block;*/
+        width: 150px;
+        height: 150px;
+        background-color: green;
+
+        /* border: 크기 유형 색 */
+        border: 10px solid black;
+
+        /*margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;*/
+
+        /* margin: top right bottom left 
+          margin: top-botton right-left
+        */
+        margin: 10px 20px 30px 40px;
+
+        /* paddingL top right bottom right */
+        padding: 10px 20px 30px 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">BOX</div>
+    <div class="box">BOX</div>
+    <div class="box">BOX</div>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>선택자</title>
+    <style>
+      h1 {
+        color: blue;
+        background-color: bisque;
+        /* 박스 안의 요소들을 가운데로 정렬합니다. */
+        text-align: center;
+      }
+
+      /*div {
+        color: brown;
+        background-color: aquamarine;
+      }*/
+      /* 우선순위 설명 */
+      .box {
+        color: red;
+        background-color: aquamarine;
+      }
+
+      header {
+        /* 기본 폰트 사이즈는 일반적으로 16px입니다. */
+        font-size: 30px;
+      }
+
+      #title {
+        color: red;
+      }
+
+      /* 클래스 이름을 이용하여 태그를 선택할 때 .을 사용한다. */
+      .black {
+        color: black;
+      }
+
+      .box1 {
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="title">제목 : 선택자</header>
+    <h1>안녕하세요1</h1>
+    <h1>안녕하세요2</h1>
+    <h1 class="black">안녕하세요3</h1>
+    <h1>안녕하세요4</h1>
+
+    <div class="box box1">BOX1</div>
+    <div class="box">BOX2</div>
+    <div class="box black">BOX3</div>
+    <div class="box">BOX4</div>
+  </body>
+</html>
+
+<!-- CSS로 HTML 태그를 선택할 때 클래스랑 태그이름만 사용하자! -->
