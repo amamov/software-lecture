@@ -1,0 +1,46 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.country {
+    background-color: rgb(242, 242, 242);
+    padding: 10px 20px;
+    border: 0.2px solid gray;
+}
+
+.country_text {
+    color: gray;
+    font-size: 13px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(242, 242, 242);
+}
+
+nav ul {
+    margin: 0;
+    display: flex;
+    padding: 10px 20px;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.nav_left li {
+    margin-right: 15px;
+    font-size: 13px;
+}
+
+.nav_right li {
+    margin-left: 15px;
+    font-size: 13px;
+}

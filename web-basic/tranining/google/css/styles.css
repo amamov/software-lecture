@@ -1,0 +1,10 @@
+/* 모든 스타일 여기서 다 작성한다. */
+@import "font.css";
+@import "main.css";
+@import "footer.css";
+@import "header.css";
+
+body {
+    margin: 0;
+    padding: 0;
+}

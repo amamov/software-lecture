@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 25px 10px 0;
+}
+
+.gmail {
+    margin-right: 17px;
+    cursor: pointer;
+}
+
+.gmail:hover {
+    border-bottom: 1px solid black;
+}
+
+.gmail_text {
+    font-size: 13px;
+}
+
+.image {
+    margin-right: 17px;
+    cursor: pointer;
+}
+.image:hover {
+    border-bottom: 1px solid black;
+}
+
+.image_text {
+    font-size: 13px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 17px;
+    cursor: pointer;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 17px;
+    cursor: pointer;
+}
+
+.me_img {
+    width: 30px;
+}
