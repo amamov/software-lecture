@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Oswald:wght@200;300;400&display=swap");
+
+      html {
+        font-size: 16px;
+      }
+      .box {
+        background-color: #fffe23;
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+
+        /* border-radius */
+        border-radius: 25%;
+
+        /* overflow */
+        overflow: scroll;
+
+        /* opacity 투명도 */
+        /*opacity: 0.5;*/
+
+        /* display: none 아예 없애기 */
+        /*display: none;*/
+      }
+
+      .item {
+        font-family: "Oswald", sans-serif;
+        font-size: 1rem;
+        background-color: skyblue;
+        width: 200px;
+        height: 200px;
+        padding: 25px;
+        box-sizing: border-box;
+
+        border-radius: 25%;
+
+        overflow: scroll;
+
+        /* word-break */
+        word-break: break-word;
+
+        /* line-height */
+        line-height: 30px;
+
+        /* cursor */
+        cursor: help;
+
+        /* box-shadow */
+        box-shadow: 4px 5px 15px 13px rgba(180, 180, 180, 0.98);
+      }
+
+      @media screen and (max-width: 700px) {
+        .item {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="item">
+        ssdsak
+        bnqbwifbweiufbiwuerbfiuefbiuewbfiuewbfiubewaiufbweifubweuifbfiuewbfuewbfueib
+      </div>
+      <div class="item">ss</div>
+      <div class="item">ss</div>
+      <div class="item">ss</div>
+      <div class="item">ss</div>
+      <div class="item">ss</div>
+      <div class="item">ss</div>
+      <div class="item">ss</div>
+      <div class="item">ss</div>
+      <div class="item">ss</div>
+      <div class="item">ss</div>
+    </div>
+  </body>
+</html>
