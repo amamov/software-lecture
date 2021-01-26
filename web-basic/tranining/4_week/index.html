@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>CSS</title>
+    <!-- <link rel="stylesheet" href="position.css" /> -->
+    <!-- <link rel="stylesheet" href="animation.css" /> -->
+  </head>
+  <body>
+    <!-- <h1>CSS Positioning</h1>
+    <div class="wrap">
+      <div class="box">
+        <div class="item"></div>
+      </div>
+    </div>
+
+    <h1>CSS Animation</h1>
+    <div class="container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+    </div>
+    <div class="box_animation">animation object</div> -->
+
+    <button id="btn">버튼</button>
+    <div id="dataPrint"></div>
+
+    <script>
+      const btn = document.getElementById("btn");
+      const printObj = document.getElementById("dataPrint");
+
+      const handleClick = async () => {
+        const response = await axios.get(
+          "https://yts.mx/api/v2/list_movies.json"
+        );
+
+        //const data = response;
+        //console.log(data);
+
+        const {
+          data: {
+            data: { movies },
+          },
+        } = response;
+        console.log(movies);
+
+        const list = `
+  <h1>Peaple I love</h1>
+  <ul>
+    ${movies.map((movie) => `<li>${movie.title}</li>`).join("")}
+  </ul>
+`;
+        printObj.innerHTML = list;
+      };
+
+      btn.addEventListener("click", handleClick);
+    </script>
+  </body>
+</html>
