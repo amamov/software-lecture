@@ -1,7 +1,8 @@
 .container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    justify-content: space-between;
 }
+
 .box {
     /* [Default] */
     width: 100px;
@@ -11,7 +12,7 @@
 
     /* [transition] : CSS 속성을 변경할 때 애니메이션 속도를 조절하는 방법을 제공한다. */
 
-    /* transition: 1s linear; */
+    transition: transform 1s ease-out, background-color 2s linear;
     /* 
       transition: 1s linear;
       - transition-property: all; 
@@ -26,9 +27,9 @@
     /* transition: font-size 1s ease-in-out, transform 0.5s ease-in-out; */
 }
 .box:hover {
-    font-size: 2rem;
+    /* font-size: 2rem;
     width: 200px;
-    height: 200px;
+    height: 200px; */
 
     /* [transform] : 요소에 회전, 크기 조절, 기울이기, 이동 효과를 부여할 수 있다. */
 
@@ -36,7 +37,8 @@
     /* transform: scale(2); */
 
     /* 현재 크기에서 요소의 크기를 2배 확대한다. and 현재 상태에서 요소를 30도 회전한다. */
-    /* transform: scale(2) rotate(30deg); */
+    transform: scale(2) rotate(30deg);
+    background-color: aqua;
 
     /* 현재 상태에서 요소를 x축 방향으로 30도 비튼다. */
     /* transform: skew(30deg); */
@@ -49,7 +51,7 @@
 
     /* [기준점 바꾸기] */
     /* transform-origin: 50% 50%; --> 디폴트 기준 즉, 가운데(정중앙) */
-
+    /* transform-origin: 20% 30%; */
     /* 기준점을 요소의 왼쪽 상단으로 바꾼다. */
     /* transform-origin: left top; */
 
@@ -61,12 +63,14 @@
 }
 
 /* [animation] */
-@keyframes ani {
+@keyframes myani {
     0% {
         transform: translate(0, 0);
+        background-color: black;
     }
-    50% {
+    70% {
         transform: translate(300px, 0);
+        background-color: red;
     }
     100% {
         transform: translate(100px, 100px);
@@ -84,9 +88,9 @@
 
     /* [animation] */
 
-    /* animation: ani 2s; */
+    /* animation: myani 2s linear 2 alternate; */
     /*
-      animation-name: ani;
+      animation-name: myani;
       animation-duration: 2s;
       animation-timing-function: ease; (default)
       animation-delay: 0s; (default)
@@ -108,5 +112,5 @@
     /* animation: ani 1s ease-in-out infinite alternate-reverse; */
 
     /* forwards : 마지막을 100%로 그대로 두도록 */
-    /* animation: ani 1s ease-in-out forwards; */
+    animation: myani 1s ease-in-out forwards;
 }

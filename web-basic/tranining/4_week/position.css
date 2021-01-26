@@ -8,26 +8,28 @@
 
 .wrap {
     background-color: blanchedalmond;
-    height: 500vh;
-    /* position: relative; */
+    height: 200vh;
 }
 
 .box {
     background-color: gray;
-    height: 50vh;
+    height: 500vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .item {
-    /* position: relative; -> 원래 있어야하는 자리에서 상대적으로 이동 */
-    /* position: absolute; -> 부모(또는 가장 가까운 relative)를 기준으로 상대적으로 이동 */
+    /* position: relative; -> 
     /* position: fixed; -> 윈도우를 기준으로 상대적으로 이동 */
-    /* position: sticky; -> 원래 있던 자리에 붙어있는다. */
-    position: absolute;
-    top: 30px;
-    left: 40px;
+    /* position: sticky; -> 바로 직계 부모를 기준으로 원래 있던 자리에 붙어있는다. */
+    /* position: absolute; -> 계산을 해서 부모(또는 가장 가까운 relative)를 기준으로 이동 */
+
+    /* position: fixed; */
+
+    position: sticky;
+    top: 10px;
+
     background-color: skyblue;
     width: 100px;
     height: 100px;
