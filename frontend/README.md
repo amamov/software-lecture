@@ -34,7 +34,7 @@ marp: true
 
 ### 스터디 인원
 
-- 최대 8명
+- 9명
 
 ### 스터디 기간
 
@@ -51,6 +51,8 @@ marp: true
   3. 할일 목록 웹 앱 만들기 (DB 핸들링하기)
   4. 지도 웹 애플리케이션 만들기 (API 핸들링하기)
   5. p5.js 맛보기 (JS로 인터렉티브 디자인 구현)
+
+  > JS를 사용하여 크롤링, 블록체인 구현, 데이터 분석, 알고리즘 등은 과제로 수행합니다.
 
 ---
 
@@ -124,8 +126,8 @@ marp: true
 
 ## 실습 및 개발 환경
 
-- 코드 편집기 (IDE) : Visual Studio Code
-- 브라우저 : FireFox
+- 코드 편집기 (IDE) : **Webstorm** (VSCode 사용하셔도 됩니다.)
+- 브라우저 : FireFox, Chrome
 - 소스 보관 : Github
 
 ---
@@ -446,6 +448,6 @@ marp: true
 
 1. 온라인 / 오프라인 참석 여부 설문
 2. JS의 역사 살펴보기 -> [링크](https://poiemaweb.com/js-introduction)
-3. VSCode 셋업
-   > VSCode 개발환경 구축 https://youtu.be/pwatNhRsHDs
+3. Webstorm IDE 기반의 개발 셋팅
+   > 개발 환경 구축 : https://youtu.be/Odd2IbMt-e8
    > HTML 이론 정리 https://youtu.be/oOC6aZcTjrU
