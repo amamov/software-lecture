@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectTasksOptions">
+    <enabled-global>
+      <option value="black" />
+      <option value="prettier ES6" />
+      <option value="prettier Flow JS" />
+      <option value="prettier JSHint configuration" />
+      <option value="prettier XHTML" />
+      <option value="prettier HTML" />
+      <option value="prettier JSON" />
+      <option value="prettier JSON5" />
+      <option value="prettier JSX" />
+      <option value="prettier JS" />
+      <option value="prettier Less style sheet" />
+      <option value="prettier MD" />
+      <option value="prettier SCSS" />
+      <option value="prettier SASS" />
+      <option value="prettier  TS" />
+      <option value="prettier TSX" />
+    </enabled-global>
+  </component>
+</project>
