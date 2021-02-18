@@ -2,9 +2,11 @@
 marp: true
 ---
 
-# Frontend Study
+# [ITEC] JS Study
 
 > 2 week
+
+> ss
 
 > ⓒ yoon sang seok all rights reserved.
 
@@ -13,3 +15,7 @@ marp: true
 # Contents
 
 ---
+
+# 👻
+
+> ⓒ yoon sang seok all rights reserved.
