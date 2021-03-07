@@ -31,15 +31,14 @@ marp: true
 ## Phase - 1
 
 1. 브라우저로서 JS, DOM의 이해, defer (js in html), 데이터 타입, 변수 선언 (호이스팅, 스코프)
+
 2. 연산자, 조건문, 반복문, 함수 (arrow func, 호이스팅, 스코프)
-   - function 코드 첼린지
-   - 별찍기 문제
-3. string, array, object, this??
 
-   - 프로토타입의 얕은 이해
-   - filter, map, forEach 관련 코드 첼린지
+3. arrow func, DOM, Template literals
 
-4. destructing, rest & spread, DOM method
+4. strings, event listener, input handler, array, this??
+
+5. object, this, destructing, rest & spread, DOM method
 
    - destructing, rest & spread 코드 첼린지
    - DOM method 코드 첼린지
