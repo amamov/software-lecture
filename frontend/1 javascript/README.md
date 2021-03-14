@@ -36,12 +36,13 @@ marp: true
 
 3. arrow func, DOM, Template literals
 
-4. strings, event listener, input handler, array, this??
+4. strings, event listener, array, time handler
 
-5. object, this, destructing, rest & spread, DOM method
+5. object, localStorage CRUD
 
-   - destructing, rest & spread 코드 첼린지
-   - DOM method 코드 첼린지
+6. this, class
+
+   - 계산기 만들기
 
 ---
 
@@ -56,7 +57,9 @@ marp: true
     - 할일 목록 앱 만들기 심화 코드 첼린지
 
 7.  웹 스토리지 (DB) 핸들링, 할일 목록 앱 만들기
+
     - 할일 목록 앱 만들기 + DB 심화 코드 첼린지
+
 8.  Promise 객체, 비동기 프로그래밍, async-await, api 핸들링
     - 호텔 예약 서비스 api 핸들링
 9.  nodejs 환경 셋업, 여러가지 api 다루어 보기 (Tensorflow, 게임, 시각/그래픽 디자인)
