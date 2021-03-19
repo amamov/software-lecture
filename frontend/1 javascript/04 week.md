@@ -53,7 +53,7 @@ const addWelcome = () => {
     </div>
   `;
 
-  wrapper.innerHTML = div;
+  wrapper.innerHTML = helloBox;
 };
 
 addWelcome();
@@ -105,8 +105,8 @@ const result = data.split("@");
 
 ## Array 정적 메서드
 
-- `Array.from()`: 전달인자를 타입에 관계 없이 새로운 Array를 만든다.
-- `Array.of()` : array-like object나 iterable object을 얕게 복사해서 새로운 Array 객체를 만든다.
+- `Array.from()`: array-like object나 iterable object을 얕게 복사해서 새로운 Array 객체를 만든다.
+- `Array.of()` : 전달인자를 타입에 관계 없이 새로운 Array를 만든다.
 
 ## Array 속성 메서드
 
