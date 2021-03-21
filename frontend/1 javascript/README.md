@@ -36,33 +36,37 @@ marp: true
 
 3. arrow func, DOM, Template literals
 
-4. strings, event listener, array, time handler
+4. strings, array
 
-5. object, localStorage CRUD
+5. object, event listener, time handler
 
-6. this, class
+6. class, localStorage CRUD
 
-   - 계산기 만들기
+7. Promise, async-await
 
 ---
 
 ## Phase - 2
 
-5.  이벤트 리스너, Date 객체, 스레드 핸들링, 기념일 앱 만들기
+8.  이벤트 리스너, Date 객체, 스레드 핸들링, 기념일 앱 만들기
 
     - 기념일 앱 만들기 심화 코드 첼린지
 
-6.  이벤트 버블링, 할일 목록 앱 만들기
+9.  이벤트 버블링, 할일 목록 앱 만들기
 
     - 할일 목록 앱 만들기 심화 코드 첼린지
 
-7.  웹 스토리지 (DB) 핸들링, 할일 목록 앱 만들기
+10. 웹 스토리지 (DB) 핸들링, 할일 목록 앱 만들기
+
 
     - 할일 목록 앱 만들기 + DB 심화 코드 첼린지
 
-8.  Promise 객체, 비동기 프로그래밍, async-await, api 핸들링
+11. Promise 객체, 비동기 프로그래밍, async-await, api 핸들링
+
     - 호텔 예약 서비스 api 핸들링
-9.  nodejs 환경 셋업, 여러가지 api 다루어 보기 (Tensorflow, 게임, 시각/그래픽 디자인)
+
+12. nodejs 환경 셋업, 여러가지 api 다루어 보기 (Tensorflow, 게임, 시각/그래픽 디자인)
+
     - 지도 api 핸들링 + p5js + impactjs + threejs
 
 ---
